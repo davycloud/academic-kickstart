@@ -9,14 +9,14 @@
   weight = 10
 
 [[main]]
-  name = "博客"
+  name = "技术博客"
   url = "#posts"
   weight = 20
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
+# [[main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 30
 
 # [[main]]
 #   name = "Publications"
@@ -29,7 +29,7 @@
   weight = 50
 
 [[main]]
-  name = "联系我"
+  name = "和我联系"
   url = "#contact"
   weight = 60
 
