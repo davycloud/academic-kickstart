@@ -14,7 +14,7 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "davycloud.com &copy; {year}"
+copyright = "davycloud.com &copy; {year} - [苏ICP备xxxx号](http://www.beian.miit.gov.cn/)"
 
 ############################
 ## Advanced options below ##
@@ -40,6 +40,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 [permalinks]
+  post = "/post/:slug/"
   authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
